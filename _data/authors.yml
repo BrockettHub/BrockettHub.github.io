@@ -1,7 +1,7 @@
 Chris Brockett:
   name        : "Chris Brockett"
   bio         : "Let's Geek out about data! Reach out via the links below."
-  avatar      : "https://placehold.co/400"
+  avatar      : "/assets/images/brockett.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
