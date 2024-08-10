@@ -9,4 +9,7 @@ Chris Brockett:
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/christopher-brockett/"
+    - label: "Volunteer"
+      icon: "fas fa-dog"
+      url: "https://www.spcaflorida.org/"
  
