@@ -10,6 +10,17 @@ author_profile: true
 
 I'm a seasoned Data Analyst based in Lakeland, FL, with a passion for leveraging data to drive business improvements and efficiencies. With over two decades of experience at Best Buy, I have honed my skills in data analysis, solution development, and stakeholder collaboration. My journey from a Supervisor, to an Assistant Manager and then a Data Scientist Associate reflects my dedication to continuous learning and professional growth.
 
+## Things I like to do
+<details>
+  <summary><b>Hobbies</b></summary>
+    <ul>
+    <li>Cooking</li>
+    <li>Photography</li>
+    <li>Travel</li>
+    <li>Technology</li>
+    </ul>
+</details>    
+
 ## My Skills
 <details>
     <summary><b>Core Competencies</b></summary>
