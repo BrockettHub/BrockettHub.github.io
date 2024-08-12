@@ -34,7 +34,7 @@ Used 2 dax calculations to determine the difference between 2023 and 2020.  Set 
 
 2023 price = CALCULATE([AVG Sale Price],FILTER(all('Calendar Cust'),'Calendar Cust'[Year] = 2023 ))
 
-Calendar function - tied to min /max date off of data project so that if data was updated the calendar updated as well.  Also broke out the date so that i could filter properly and the months would not filter in wrong order.
+Calendar function - tied to min /max date off of data project so that if data was updated the calendar updated as well.  Also broke out the date so that I could filter properly and the months would not filter in wrong order.
 
 Calendar Cust = 
 ADDCOLUMNS (
@@ -52,4 +52,4 @@ ADDCOLUMNS (
 )
 ## Learning
 - It was interesting to see the real estate data and the impact to the market due to Covid
-- How to create a calendar function.  So use to having calendars within the databases that i could use.
+- How to create a calendar function.  So use to having calendars within the databases that I could use.
