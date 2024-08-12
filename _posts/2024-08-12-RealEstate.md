@@ -15,6 +15,10 @@ header:
   caption: "Photo credit: Chris Brockett"
 description: A mix of Sql and Excel
 ---
+## Executive Summary
+The primary objective of this project was to analyze Zillow data to provide strategic recommendations for launching a real estate company. Given the drastic downward trend with average homes sold dropping 30% since 2020, I recommend a limited scope launch.
+
+Launching in Los Angeles offers a balanced approach to entering the real estate market, leveraging strong local performance while minimizing broader market risks. This strategy allows for establishing a solid operational foundation and market presence, setting the stage for future growth and expansion.
 
 ## Goal
 This project was to look at Zillow data and provide recommendations on how to launch a real estate company.  All data used for this project came from Zillow.  This one is a bit different from other projects that I have built as I tailored it for a presentation with the thought of converting it to a tracking tool if the company went live.
