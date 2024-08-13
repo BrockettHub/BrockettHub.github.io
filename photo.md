@@ -1,28 +1,74 @@
 ---
 layout: archive
-title: Photo
+title: Photography and Nature
 permalink: /photo/
 author: Chris Brockett
 author_profile: true
 ---
-
+I love being out in nature and snapping pictures.  Enjoy the show (yes there will be alot of sunsets :smiley:)
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+    <title>Picture Carousel</title>
+    <style>
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+        }
+        .carousel img {
+            min-width: 100%;
+            transition: transform 0.5s ease;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .buttons button {
+            margin: 0 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="carousel">
-        <div class="carousel-inner" id="carouselInner">
-            <!-- Images will be inserted here dynamically -->
-        </div>
-        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        <img src="/assets/images/barn.jpg" alt="image 1">
+        <img src="/assets/images/sset1.jpg" alt="image 2">
+        <img src="/assets/images/waterfall.jpg" alt="image 3">
+        <img src="/assets/images/sand.jpg" alt="image 4">
+    </div>
+    <div class="buttons">
+        <button onclick="prev()">Previous</button>
+        <button onclick="next()">Next</button>
     </div>
 
-    <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+    <script>
+        let index = 0;
+        const images = document.querySelectorAll('.carousel img');
+        const totalImages = images.length;
+
+        function showImage(idx) {
+            images.forEach((img, i) => {
+                img.style.transform = `translateX(${-(idx * 100)}%)`;
+            });
+        }
+
+        function next() {
+            index = (index + 1) % totalImages;
+            showImage(index);
+        }
+
+        function prev() {
+            index = (index - 1 + totalImages) % totalImages;
+            showImage(index);
+        }
+
+        showImage(index);
+    </script>
 </body>
 </html>
