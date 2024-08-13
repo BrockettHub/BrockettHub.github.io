@@ -1,15 +1,18 @@
 let currentIndex = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM fully loaded and parsed');
     const images = [
         'https://drive.google.com/file/d/0B8S7-5SSksg_V3hScFYyUmZ5cTg/view?usp=drive_link&resourcekey=0-3MkW2IrugOALy0cNkRBHHA',
         'https://drive.google.com/file/d/1LBSnggZJP4a1vmQiODhYvOG3J8Q6xuic/view?usp=drive_link',
         'https://drive.google.com/file/d/106n47I9uPEcjYeoADgSgqO-E6Lpl8Up9/view?usp=drive_link'
         // Add more image URLs as needed
     ];
-    
+    console.log('Images:', images);
+
     const carouselInner = document.getElementById('carouselInner');
     images.forEach((image, index) => {
+        console.log(`Processing image ${index + 1}: ${image}`);
         const div = document.createElement('div');
         div.classList.add('carousel-item');
         if (index === 0) div.classList.add('active');
