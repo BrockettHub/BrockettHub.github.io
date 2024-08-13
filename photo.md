@@ -16,8 +16,8 @@ I love being out in nature and snapping pictures.  Enjoy the show (yes there wil
         .carousel {
             display: flex;
             overflow: hidden;
-            width: 400px;
-            height: 300px;
+            width: 50%;
+            height: 50%;
             margin: auto;
             position: relative;
         }
@@ -41,6 +41,11 @@ I love being out in nature and snapping pictures.  Enjoy the show (yes there wil
         <img src="/assets/images/sset1.jpg" alt="image 2">
         <img src="/assets/images/waterfall.jpg" alt="image 3">
         <img src="/assets/images/sand.jpg" alt="image 4">
+        <img src="https://i.imgur.com/ngUGA5d.jpg" alt="image 5">
+        <img src="https://i.imgur.com/GPymVn9.jpg" alt="image 6">
+        <img src="https://i.imgur.com/rtdtYHd.jpg" alt="image 7">
+        <img src="https://i.imgur.com/5ZlhhD2.jpg" alt="image 8">
+        <img src="https://i.imgur.com/G1iu0MR.jpg" alt="image 9">
     </div>
     <div class="buttons">
         <button onclick="prev()">Previous</button>
