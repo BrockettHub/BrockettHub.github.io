@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Travel Map
-permalink: /travel/
+permalink: /travels/
 author: Chris Brockett
 author_profile: true
 ---

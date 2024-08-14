@@ -16,7 +16,7 @@ I'm a seasoned Data Analyst based in Lakeland, FL, with a passion for leveraging
     <ul>
     <li>Cooking</li>
     <li><a href= "/photo">Photography</a></li>
-    <li><a href= "/travel"> Travel</a></li>
+    <li><a href= "/travels"> Travel</a></li>
     <li>Technology</li>
     </ul>
 </details>    
