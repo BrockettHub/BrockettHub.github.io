@@ -3,7 +3,7 @@ layout: posts
 title:  "Welcome to Jekyll!"
 date:   2024-08-09 10:24:42 +0000
 categories: article
-highlight_home: true
+highlight_home: false
 tags: education
 description: this is an article about education
 header:
