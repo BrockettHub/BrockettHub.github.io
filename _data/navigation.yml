@@ -8,3 +8,7 @@ main:
     url: "/mywriting"
   - title: "About Me"
     url: "/about"
+  - title: "Travel"
+    url: "/travels"
+  - title: "Photography"
+    url: "/photo"
