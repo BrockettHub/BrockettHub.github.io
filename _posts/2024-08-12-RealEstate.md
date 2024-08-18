@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/sand.jpg
   
   caption: "Photo credit: Chris Brockett"
-description: A mix of Sql and Excel
+description: A mix of Sql and PBI
 ---
 ## Executive Summary
 The primary objective of this project was to analyze Zillow data to provide strategic recommendations for launching a real estate company. Given the drastic downward trend with average homes sold dropping 30% since 2020, I recommend a limited scope launch.
