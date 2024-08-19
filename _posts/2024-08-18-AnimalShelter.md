@@ -20,9 +20,9 @@ We are successfully maintaining our no-kill shelter status by staying above the 
 
 The primary factor contributing to this decline is the incidence of rabies within the "other" classification of animals. To address this issue, it is recommended to:
 
-- Analyze the "Other" Category: Identify the specific types of animals classified under "other" and investigate the causes of the high rabies rates in this group.
+- Stop taking in bats and raccoons.  This would move the % for this year to 96%
+- Check with state laws to see if these animals should count within the no kill percentage.
 - Targeted Health Interventions: Implement focused health and safety measures for the identified animals to reduce rabies cases.
-- Monitor and Report: Continuously monitor the health status of animals within this classification and regularly report findings to adapt strategies as needed.
 
 By addressing these areas, we can work towards improving our live release rate and ensure the ongoing success of our no-kill shelter.
 
