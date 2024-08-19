@@ -9,8 +9,8 @@ categories: work
 highlight_home: true
 tagline: "PBI Dax"
 header:
-  overlay_image: /assets/images/sand.jpg
-  teaser: /assets/images/sand.jpg
+  overlay_image: https://i.imgur.com/h7heskz.jpg
+  teaser: https://i.imgur.com/h7heskz.jpg
   
   caption: "Photo credit: Chris Brockett"
 description: A mix of excel and PBI
@@ -20,7 +20,7 @@ We are successfully maintaining our no-kill shelter status by staying above the 
 
 The primary factor contributing to this decline is the incidence of rabies within the "other" classification of animals. To address this issue, it is recommended to:
 
-- We should stop accepting bats and raccoons. Currently, these animals have a combined successful release rate of only 10%. By preventing them from being taken in, we can increase our overall success rate for this year to 96%.
+- Stop accepting bats and raccoons. Currently, these animals have a combined successful release rate of only 10%. By preventing them from being taken in, we can increase our overall success rate for this year to 96%.
 - Check with state laws to see if these animals should count within the no kill percentage.
 - Targeted Health Interventions: Implement focused health and safety measures for the identified animals to reduce rabies cases.
 
@@ -37,6 +37,10 @@ This particular data set threw some unique challenges.  I expected some duplicat
 ## Dax
 To compare this year vs last year crafted 2 dax measures and set them up so if they changed filters it wouldnt change the value.  Here is one of them.
 Current Year = CALCULATE([Cases], filter(all(Austin_Animal_Center_Outcomes_20240818),year(Austin_Animal_Center_Outcomes_20240818[DateTime])=year(today())&& Austin_Animal_Center_Outcomes_20240818[Outcome Type] = "Euthanasia" )) / CALCULATE([Cases], filter(all(Austin_Animal_Center_Outcomes_20240818),year(Austin_Animal_Center_Outcomes_20240818[DateTime])=year(today())))
+
+## Future
+- See why there was data duplication within data set.  
+- Look at transfers and spray and neuter rates.  See if there is data points on reasons for transfers and what it would take to convert transfers to adoptions.  Also saw that it was possible that animals were being transfered / adopted without being spayed or neutered.  Currently no data points as why but this would be a good data point to look at to drive to 100%.
 
 ## Learning
 How to do ranking within power query

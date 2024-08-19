@@ -46,6 +46,7 @@ I love being out in nature and snapping pictures.  Enjoy the show (yes there wil
         <img src="https://i.imgur.com/rtdtYHd.jpg" alt="image 7">
         <img src="https://i.imgur.com/5ZlhhD2.jpg" alt="image 8">
         <img src="https://i.imgur.com/G1iu0MR.jpg" alt="image 9">
+        <img src="https://i.imgur.com/P2tjJ5K.jpg" alt="image 10">
     </div>
     <div class="buttons">
         <button onclick="prev()">Previous</button>
@@ -78,6 +79,6 @@ I love being out in nature and snapping pictures.  Enjoy the show (yes there wil
 
 
 <br>
-Want to see more sunsets then check out my gallery <a href="https://imgur.com/gallery/sunsets-nPLufLn" target="blank">here</a>
+Want to see more sunsets then check out my gallery <a href="https://imgur.com/gallery/sunsets-nPLufLn" target="blank">here</a> or see some <a href= "https://imgur.com/gallery/critters-7dCcZGX" target = "blank"> critters</a>.
 </body>
 </html>
